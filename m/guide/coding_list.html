@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+	<meta name="keywords" content="현대아산투어센터, 현대, 아산, 금강산, 백두산, 평양, 원산, 개성, MICE, 관광, 북한관광, 크루즈, 테마, 패키지, 해외여행, 항공, 호텔 "/>
+	<meta name="description" content="현대아산투어센터 공식 홈페이지에 오신것을 환영합니다. 금강산, 백두산, 평양, 개성, 원산 등 북측관광과 크루즈, 테마패키지 및 해외여행, 항공"/>
+	
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="apple-touch-icon" href="../resources/img/common/ico_app.png" >
+	<link rel="shortcut icon" href="../resources/img/common/ico_favicon.ico"> 
+  
+	<title>현대아산투어센터</title>
+
+	<link rel="stylesheet" href="../resources/css/ui.base.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../resources/js/ui.base.js"></script>
+	<style>
+	.ui-codinglist-sel{display:none;}
+	</style>
+</head>
+
+<body>
+	<div class="base-skip" id="baseSkip"></div>
+	<div class="base-layer" id="baseLayer"></div>
+	<div class="base-wrap" id="baseWrap">
+		<header class="base-header" id="baseHeader"></header>
+		<main class="base-main" id="baseMain" role="main">
+			<div class="base-content" id="baseContent">
+				
+				<!-- content -->
+				<div class="ui-codinglist" id="uiCodinglist">
+					
+				</div>
+				<!-- //content -->
+
+			</div>
+		</main>
+		<footer class="base-footer" id="baseFooter"></footer>
+	</div>
+
+	<script>
+	;(function($, win, doc, undefined) {
+		$plugins.common.pageid = "guide";
+		$(doc).ready(function(){
+			
+			$plugins.uiCodinglist({
+				id:'uiCodinglist', 
+				url:'../resources/data/codinglist.json', 
+				type:'json'
+			})
+		});
+	})(jQuery, window, document);
+	</script>
+</body>
+</html>

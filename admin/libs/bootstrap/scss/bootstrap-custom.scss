@@ -1,0 +1,72 @@
+$icon-font-path: "../fonts/";
+$grid-float-breakpoint: 0;
+$border-radius-base:0px;
+$border-radius-large:0px;
+$border-radius-small:0px;
+
+$brand-primary:#2494f2;
+
+// $screen-xs:                  480px !default;
+$screen-xs: 0;
+// $screen-sm:                  768px !default;
+$screen-sm: 0;
+// $screen-md:                  992px !default;
+// $screen-lg:                  1200px !default;
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color:                      #fff;
+$navbar-inverse-bg:                         $brand-primary;
+$navbar-inverse-border:                     $brand-primary;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff;
+// $navbar-inverse-link-hover-color:           #fff !default;
+// $navbar-inverse-link-hover-bg:              transparent !default;
+// $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
+// $navbar-inverse-link-active-bg:             darken($navbar-inverse-bg, 10%) !default;
+// $navbar-inverse-link-disabled-color:        #444 !default;
+// $navbar-inverse-link-disabled-bg:           transparent !default;
+// 
+// // Inverted navbar brand label
+// $navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
+// $navbar-inverse-brand-hover-color:          #fff !default;
+// $navbar-inverse-brand-hover-bg:             transparent !default;
+// 
+// // Inverted navbar toggle
+// $navbar-inverse-toggle-hover-bg:            #333 !default;
+// $navbar-inverse-toggle-icon-bar-bg:         #fff !default;
+// $navbar-inverse-toggle-border-color:        #333 !default;
+
+
+$nav-link-padding:                          5px 10px;
+
+$line-height-base : 1.429;
+$dl-horizontal-offset : 220px;
+$zindex-modal-background:  0;
+
+@import "bootstrap";
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  margin-top: 2px;
+}
+
+.navbar-inverse {
+  .btn-default { border:none; }
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-left:15px; padding-right:15px; }
+
+.thumbnail-title-2 { height:2.2em;}
+.thumbnail-link { 
+  &:focus,
+  &:hover { text-decoration:none; }
+}
+.thumbail-crop { position:relative; display:block; overflow:hidden; 
+  img { position:absolute; top:0; left:0; right:0; width:100%; margin:auto;}
+}
+.thumbail-crop-16\:9 { padding-top:56.25%; }
+.thumbail-crop-4\:3 { padding-top:75%; }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>여행후기/갤러리 | 현대아산관광</title>
+    <link rel="stylesheet" href="../../libs/normalize/normalize.css">
+    <link rel="stylesheet" href="../../libs/arita-dotum/css/arita-dotum.css">
+    <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/bootstrap/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="../../libs/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../../libs/dropify/css/dropify.min.css">
+    <link rel="stylesheet" href="../../libs/ez-space-css/css/ez-space.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/style.css"> </head>
+  <body class="review">
+    <div class="site-header">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">현대아산관광</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" role="navigation">
+              <li role="presentation" class="dropdown">
+                <a href="../account/계정관리_01비밀번호변경.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">계정관리
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="../account/계정관리_01비밀번호변경.html" class="">비밀번호 변경</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="../notice/공지사항_01목록.html">공지사항</a>
+              </li>
+              <li role="presentation">
+                <a href="../promotion/프로모션이벤트_01목록.html">프로모션/이벤트</a>
+              </li>
+              <li role="presentation">
+                <a href="../review/여행후기갤러리_01목록.html">여행후기/갤러리</a>
+              </li>
+              <li role="presentation">
+                <a href="../reference/관광자료실_01목록.html">관광 자료실</a>
+              </li>
+              <li role="presentation">
+                <a href="../qna/Q&A_01목록.html">Q&A</a>
+              </li>
+            </ul>
+            <p class="navbar-text navbar-right"> 안녕하세요. 홍길동님
+              <button type="submit" class="btn  btn-default btn-xs">
+                <i class="fa fa-sign-out" aria-hidden="true"></i> 로그아웃</button>
+            </p>
+          </div>
+          <!-- //collapse -->
+        </div>
+        <!-- //container-fluid -->
+      </nav>
+    </div>
+    <!-- //site-header -->
+    <div class="site-container">
+      <div class="container-fluid">
+        <div class="page-header">
+          <h1 class="h2 font-weight-light">여행후기/갤러리</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table table-bordered">
+              <colgroup>
+                <col style="width:100px;">
+                <col>
+                <col style="width:100px;">
+                <col> </colgroup>
+              <tbody>
+                <tr>
+                  <th class="active">제목</th>
+                  <td colspan="3">
+                    <input type="text" name="" id="" class="form-control input-sm" value="현대아산 새롭게 출발하다"> </td>
+                </tr>
+                <tr>
+                  <th class="active">등록일</th>
+                  <td>2017-11-21</td>
+                  <th class="active">조회수</th>
+                  <td>999</td>
+                </tr>
+                <tr>
+                  <th class="active">작성자</th>
+                  <td colspan="3"> 홍길동 </td>
+                </tr>
+                <tr>
+                  <th class="active">썸네일
+                    <br>(PC)</th>
+                  <td colspan="3">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <input type="file" id="input-file-now" class="dropify" data-height="200" data-default-file="https://i.imgur.com/WpnQ6VY.jpg" data-allowed-file-extensions="jpg png gif" /> </div>
+                    </div>
+                    <div class="xs-mt-5"> 권장사이즈 000x000 </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="active">썸네일
+                    <br>(Mobile)</th>
+                  <td colspan="3">
+                    <div class="row">
+                      <div class="col-xs-2">
+                        <input type="file" id="input-file-now" class="dropify" data-height="200" data-default-file="https://i.imgur.com/qv5HL2N.jpg" data-allowed-file-extensions="jpg png gif" /> </div>
+                    </div>
+                    <div class="xs-mt-5"> 권장사이즈 000x000 </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4">
+                    <div>
+                      <div style="padding:200px;background-color:skyblue;text-align:center;">에디터</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- //table -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-left">
+            <a class="btn btn-danger" href="여행후기갤러리_01목록.html" role="button">
+              <i class="fa fa-trash" aria-hidden="true"></i> 삭제</a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a class="btn btn-default" href="여행후기갤러리_01목록.html" role="button">
+              <i class="fa fa-times" aria-hidden="true"></i> 취소</a>
+            <a class="btn btn-success" href="여행후기갤러리_02상세.html" role="button">
+              <i class="fa fa-check" aria-hidden="true"></i> 수정</a>
+          </div>
+          <div class="col-sm-4 text-right"> </div>
+        </div>
+      </div>
+      <!-- //container-fluid -->
+    </div>
+    <!-- //site-container -->
+    <div class="site-footer"> COPYRIGHT &copy; 2018 Hyundai Asan Tour Co.Ltd. ALL RIGHTS RESERVED. </div>
+    <!-- //site-footer -->
+    <script src="../../libs/jquery/jquery.min.js"></script>
+    <script src="../../libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../libs/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script src="../../libs/dropify/js/dropify.min.js"></script>
+    <script src="../../js/common.js"></script>
+  </body>
+</html>

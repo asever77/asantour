@@ -1,0 +1,41 @@
+.login-wrap {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 400px;
+  margin: auto;
+  -webkit-animation: login-wrap .3s ease-out;
+  animation: login-wrap .3s ease-out;
+}
+
+@-webkit-keyframes login-wrap {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+}
+
+@keyframes login-wrap {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=maps/login.css.map */

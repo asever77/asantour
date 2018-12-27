@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAGA;EAAkB,iBAAe;CAAK","file":"../style.css","sourcesContent":["@import 'variables/variables';\r\n@import 'mixins/mixins';\r\n\r\n.space-vertical { margin-top:15px; }"]}

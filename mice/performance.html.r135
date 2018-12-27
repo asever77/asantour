@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1220, initial-scale=1.0, shrink-to-fit=no">
+
+	<meta name="keywords" content="현대아산투어센터, 현대, 아산, 금강산, 백두산, 평양, 원산, 개성, MICE, 관광, 북한관광, 크루즈, 테마, 패키지, 해외여행, 항공, 호텔 "/>
+	<meta name="description" content="현대아산투어센터 공식 홈페이지에 오신것을 환영합니다. 금강산, 백두산, 평양, 개성, 원산 등 북측관광과 크루즈, 테마패키지 및 해외여행, 항공"/>
+	
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="apple-touch-icon" href="../resources/img/common/ico_app.png" >
+	<link rel="shortcut icon" href="../resources/img/common/ico_favicon.ico"> 
+  
+	<title>수행 실적 - MICE | 현대아산투어센터</title>
+
+	<link rel="stylesheet" href="../resources/css/ui.base.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../resources/js/ui.base.js"></script>
+</head>
+
+<body>
+	<div class="base-skip" id="baseSkip"></div>
+	<div class="base-layer" id="baseLayer"></div>
+	<div class="base-wrap" id="baseWrap">
+		<header class="base-header" id="baseHeader"></header>
+		<main class="base-main" id="baseMain" role="main">
+			<div class="base-content" id="baseContent">
+				<!-- content ---------------------------------------------------------------------------------------------- -->
+
+				<!-- bread crumb -->
+				<div class="ui-floating breadcrumb-wrap" id="uiBreadcrumb">
+					<div class="ui-floating-wrap">
+						<div class="div-inner">
+							<div class="breadcrumb-bar">
+								<strong class="hide">현재위치</strong>
+								<a href="#" class="breadcrumb-home"><span class="hide">홈</span></a>
+								<div class="breadcrumb-depth">
+									<button type="button" class="breadcrumb-btn">MICE</button>
+									<div class="breadcrumb-list">
+										<ul>
+											<li><a href="../geumgang/info.html">금강산관광</a></li>
+											<li><a href="../gaeseong/info.html">개성관광</a></li>
+											<li><a href="../north/backdusan.html">북측여행</a></li>
+											<li><a href="../overseas/cruise.html">해외여행</a></li>
+											<li><a href="../mice/intro.html">MICE</a></li>
+											<li><a href="../community/event.html">커뮤니티</a></li>
+										</ul>
+									</div>
+								</div>
+								<div  class="breadcrumb-depth">
+									<button type="button" class="breadcrumb-btn">수행실적</button>
+									<div class="breadcrumb-list">
+										<ul>
+											<li><a href="../mice/intro.html">사업소개</a></li>
+											<li><a href="../mice/north.html">대북 MICE</a></li>
+											<li><a href="../mice/client.html">주요 고객사</a></li>
+                                            <li><a href="../mice/performance.html">수행실적</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class="util-bar">
+								<button type="button" class="util-sns"><span class="hide">SNS</span></button>
+								<div class="util-sns-wrap">
+									<button type="button" class="util-sns-f"><span class="hide">페이스북</span></button>
+									<button type="button" class="util-sns-t"><span class="hide">트위터</span></button>
+									<button type="button" class="util-sns-l"><span class="hide">공유하기</span></button>
+									<button type="button" class="util-sns-x"><span class="hide">SNS 닫기</span></button>
+								</div>
+								<button type="button" class="util-bookmark"><span class="hide">즐겨찾기</span></button>
+								<button type="button" class="util-print"><span class="hide">인쇄</span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- visual title -->
+				<div class="visual-wrap type-mice4">
+					<h2 class="visual-tit">수행 실적</h2>
+
+					<div class="visual-txt">
+						<span>현대아산은 </span>
+						<strong>신뢰를 바탕으로 고객사와의 진정성있는 협력 체계를 <br>구축하여 성공적인 행사를 개최하고 있습니다. </strong>
+					</div>
+				</div>
+
+				<div class="div-inner">
+					
+					<div class="ui-tab" id="uiPerfmcTab">
+						<div class="ui-tab-btns col-7">
+							<button type="button" class="ui-tab-btn"><i>2018</i></button>
+							<button type="button" class="ui-tab-btn"><i>2017</i></button>
+							<button type="button" class="ui-tab-btn"><i>2016</i></button>
+							<button type="button" class="ui-tab-btn"><i>2015</i></button>
+							<button type="button" class="ui-tab-btn"><i>2014</i></button>
+							<button type="button" class="ui-tab-btn"><i>2013</i></button>
+                            <button type="button" class="ui-tab-btn"><i>2012</i></button>
+						</div>
+						<div class="ui-tab-pnls ">
+							<!-- 2018 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2018 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_7.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_6_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   한반도 국제포럼<br /> (KGF 2018)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_6.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_5_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    해외문화홍보원 해외언론인 초청사업
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_5.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   대학기본역량진단사업<br /> (교육부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    LG 해외 VIP 투어 연간 대행사<br /> (LG전자)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    현대자동차 상용차 VIP 평창 올림픽 투어<br /> (현대자동차)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_1_2.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   LG VIP 평창 올림픽 투어 <br /> (LG전자)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2018/2018_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    국제인문포럼
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2018 -->
+
+							<!-- 2017 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2017 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+										<li class="list-card-item">
+                                            <a href="../mice/2017_10.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_10_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   Climate Change Outreach Project 컨퍼런스<br />(EU)
+                                                </div>
+                                            </a>
+                                        </li>
+										<li class="list-card-item">
+                                            <a href="../mice/2017_9.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_9_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   제 3차 한태평양 도서국 외교장관회의 <br />(외교부)
+                                                </div>
+                                            </a>
+                                        </li>
+										<li class="list-card-item">
+                                            <a href="../mice/2017_8.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_8_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   HPLC
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_7.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_7_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   현대자동차 사우디아라비아 VIP 컨퍼런스
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_6.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_6_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   재외명예영사 초청사업<br /> (외교부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_5.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_5_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   AIC 세계색채학회
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    세계한글작가대회<br /> (국제 PEN 한국본부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    국제전기전자학회<br /> (IEEE)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   LG VIP TRIP 연간 대행사 <br /> (LG)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2017_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2017/2017_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    해외 VIP 투어 연간 대행사 <br /> (현대중공업)
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2017 -->
+
+							<!-- 2016 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2016 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2016_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2016/2016_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    재외명예영사 초청행사<br /> (외교부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2016_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2016/2016_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    세계한글작가대회<br /> (국제PEN한국본부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2016_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2016/2016_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+												   한반도 국제포럼<br /> (통일부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2016_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2016/2016_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+													현대중공업 해외 VIP 투어 연간대행사<br /> (현대중공업)
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2016 -->
+
+							<!-- 2015 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2015 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_7.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_7_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   해외건설협회 글로벌 인프라 협력 <br />(국토교통부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_6.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_6_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    한태평양도서국 고위관리회의 <br />(외교부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_5.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_5_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   미세종합분석시스템 국제학술대회 <br />(MicroTAS 2015)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    세계한글작가대회 <br />(국제PEN한국본부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    국제핵융합기술 심포지움 <br />(ISFNT-12)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   세계한국어교육자대회 세종학당재단
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2015_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2015/2015_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    UNGC Korea Leaders Summit <br />(UNGC)
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2015 -->
+
+							<!-- 2014 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2014 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_6.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_6_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    한태평양도서국 외교장관회의 <br /> (외교부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_5.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_5_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   KIEP 신흥지역연구 통합학술회의
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   세계분자영상 학술대회<br /> (LG전자)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    국토교통부 해외건설협회 GICC 2014
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                  한국상담학회 연차대회
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2014_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2014/2014_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    한국섬유산업연합회 CEO 포럼
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2014 -->
+
+							<!-- 2013 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2013 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_7.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_7_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   제4회 재외명예영사 초청워크샵 <br /> (외교부) 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_6.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_6_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    아태평양미세분석 국제학술회의 <br /> (APCE 2013)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_5.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_5_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   IEEE 핵과학심포지움 및 의료영상컨퍼런스
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_4.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_4_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   제19차 국제공학설계학술대회<br /> (ICED13)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_3.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_3_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   한독 통일자문위원회 <br />(통일부)
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_2.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_2_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                   한국문화예술진흥원 <br />아르떼 아카데미 초청연수
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2013_1.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/mice/2013/2013_1_1.jpg" alt=""></div>
+                                                <div class="list-card-tit">
+                                                    통일부 통일 리더쉽 캠프 <br />(총 33회, 3,580명)
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2013 -->
+
+							<!-- 2012 -->
+							<section class="ui-tab-pnl">
+                                <h1 class="ui-tab-tit hide">2018 수행 실적</h1>
+                                <div class="list-card col-3 type-simple">
+                                    <ul>
+                                        <li class="list-card-item">
+                                            <a href="../mice/2018_7.html" role="button">
+                                                <div class="list-card-img"><img src="../resources/img/common/img_none.jpg" alt="준비중입니다."></div>
+                                                <div class="list-card-tit">
+                                                   자료준비중입니다.
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section><!--// 2012 -->
+
+
+                        </div>
+                    </div>
+				</div>
+
+				<!-- //content ---------------------------------------------------------------------------------------------- -->
+			</div>
+		</main>
+		<footer class="base-footer" id="baseFooter"></footer>
+	</div>
+
+	<script>
+	;(function($, win, doc, undefined) {
+		$(doc).ready(function(){
+			
+			console.log('page');
+            //탭
+            $plugins.uiTab({
+                id: 'uiPerfmcTab',
+                current: 0,
+                label: '자주 묻는 질문',
+                callback: function (v) {
+                    console.log(v.current)
+                }
+            });
+		});
+	})(jQuery, window, document);
+	</script>
+</body>
+</html>

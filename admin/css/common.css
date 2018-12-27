@@ -1,0 +1,359 @@
+body {
+  font-family: 'Arita-dotum','notokr','Spoqa Han Sans', sans-serif;
+}
+
+.line-ellipsis {
+  overflow: hidden;
+  position: relative;
+}
+
+.line-ellipsis:before {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, white));
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 50%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 50%);
+  content: '\200C';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  text-align: center;
+}
+
+input[type='checkbox'] {
+  -o-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/form/checkbox.png);
+  -webkit-background-size: auto 16px;
+  background-size: auto 16px;
+}
+
+input[type='checkbox']:focus {
+  outline: none;
+  background-position: -16px 0;
+}
+
+input[type='checkbox']:checked {
+  background-position: -32px 0;
+}
+
+input[type='checkbox']::-ms-check {
+  opacity: 0;
+}
+
+select.form-control::-ms-expand {
+  display: none;
+}
+
+select.form-control:optional, select.form-control:required {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 25px;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4MzJjMThkNC1kOTVjLTRlNDItYTY1Yi1kMzQ4YjNiMmEyMmQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDUxM0M4NjlFQkFFMTFFN0JFRkZDQkQ4NzJDRDZGMzIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDUxM0M4NjhFQkFFMTFFN0JFRkZDQkQ4NzJDRDZGMzIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NTg3YTVhM2MtYmZiYi1jNTQwLTg0YjAtYTZlNDViMzhlODc5IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZmJhYzg2ZTgtZTBiYy0xMWU3LTgxNDAtZDc5YTIxMzQ2N2QxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VDTvTgAAAElJREFUeNpsTUEOwCAIKx3v0v3/T46p41DJmgClQLHW78CHa8aDE2MGmQRSjwVkcnEIqUzu/HkV4rb0wSKg9PvQy8DSyVR8BRgA3JcOzttMcu4AAAAASUVORK5CYII=);
+}
+
+.upload-set {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.upload-set .form-control[readonly] {
+  background-color: #fff;
+}
+
+.upload-set + .upload-set {
+  margin-top: 5px;
+}
+
+.upload-set-inner {
+  position: relative;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.upload-set-input-group {
+  width: 100%;
+}
+
+.upload-set-file {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  opacity: 0;
+  -ms-filter: "alpha(opacity=0)";
+  cursor: pointer;
+}
+
+.upload-set-del {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 31px;
+}
+
+.upload-set-display {
+  display: block;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 5px;
+}
+
+.upload-set-thumb {
+  max-width: 100%;
+}
+
+.upload-multiple-add {
+  margin-top: 5px;
+}
+
+.js-toggle-img,
+.modal-body .js-toggle-img {
+  width: 40%;
+}
+
+.js-toggle-img.is-lg {
+  width: auto;
+  max-width: 100%;
+}
+
+.input-file-box {
+  overflow: hidden;
+}
+
+.input-file-box .btn-duplicator {
+  margin-top: 5px;
+  float: right;
+}
+
+.input-file-box .btn-remove {
+  margin-top: 5px;
+  float: left;
+}
+
+.input-group-addon-transparent {
+  position: absolute;
+  border: none !important;
+  width: auto;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  border-left-width: 0;
+  z-index: 10;
+}
+
+.input-group-addon-transparent:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.input-group-addon-transparent > i {
+  vertical-align: middle;
+}
+
+.input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child) {
+  border-left: none;
+  border-right: none;
+}
+
+.date[readonly],
+.date input[readonly] {
+  background-color: #fff;
+}
+
+.date-width-default {
+  width: 15em;
+}
+
+.time-width-default {
+  width: 10em;
+}
+
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, .datetimepicker table tr td.active.disabled:active, .datetimepicker table tr td.active.disabled:hover:active, .datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, .datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled:hover.active {
+  background-color: #4d90fd;
+  background-image: none;
+}
+
+.datetimepicker table tr td span.active:active, .datetimepicker table tr td span.active:hover:active, .datetimepicker table tr td span.active.disabled:active, .datetimepicker table tr td span.active.disabled:hover:active, .datetimepicker table tr td span.active.active, .datetimepicker table tr td span.active:hover.active, .datetimepicker table tr td span.active.disabled.active, .datetimepicker table tr td span.active.disabled:hover.active {
+  background-color: #4d90fd;
+  background-image: none;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+  background-color: #4d90fd;
+}
+
+.form-radio {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+}
+
+.form-radio input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.form-radio input + i {
+  float: left;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d4d4d4;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.form-radio input:checked + i {
+  background-color: #4d90fd;
+  border-color: #4d90fd;
+}
+
+.form-radio input:focus + i,
+.form-radio input:hover + i {
+  border-width: 2px;
+  border-color: #4d90fd;
+}
+
+.form-radio input:checked + i:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  content: '';
+}
+
+.radio-inline .form-radio {
+  margin-left: -20px;
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.board-link {
+  color: inherit;
+}
+
+.board-link:focus, .board-link:hover {
+  color: inherit;
+}
+
+.board-nowrap {
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.board-nowrap:nth-child(n) {
+  width: auto;
+  max-width: 100%;
+}
+
+.board-nowrap.board-new {
+  padding-right: 60px;
+}
+
+.board-nowrap.board-new:after {
+  position: absolute;
+  right: 0;
+}
+
+.table-row-link {
+  overflow: hidden;
+}
+
+.table-row-link.table-bordered {
+  border-collapse: separate;
+  border-right-width: 0;
+}
+
+.table-row-link.table-bordered th,
+.table-row-link.table-bordered td {
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+.table-row-link.table-bordered th {
+  border-bottom-width: 1px;
+}
+
+.table-row-link tbody tr:hover td {
+  background-color: #e5f2fd;
+  -webkit-transition: background-color .3s ease-out;
+  -o-transition: background-color .3s ease-out;
+  transition: background-color .3s ease-out;
+}
+
+.table-row-link tbody td {
+  position: relative;
+}
+
+.table-row-link tbody td a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.table-row-link tbody td a:focus,
+.table-row-link tbody td a:hover {
+  text-decoration: none;
+}
+
+.table-row-link tbody td a:after {
+  content: '';
+  position: absolute;
+  bottom: -1000%;
+  top: 0;
+  padding: 8px;
+  left: -100%;
+  width: 1000%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.table-layout-fixed {
+  table-layout: fixed;
+}
+
+/*# sourceMappingURL=maps/common.css.map */
