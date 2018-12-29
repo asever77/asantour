@@ -253,11 +253,13 @@
     box-sizing: border-box;
     flex:0 50%;
     position: relative;
+    line-height:1;
     z-index: 0
 }
 .ui-tab-btn[aria-selected="true"] {
     z-index: 2;
 }
+.ui-tab-btn span{display:inline-block;}
 
 
 

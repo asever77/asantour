@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=1220, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
 	<meta name="keywords" content="현대아산투어센터, 현대, 아산, 금강산, 백두산, 평양, 원산, 개성, MICE, 관광, 북한관광, 크루즈, 테마, 패키지, 해외여행, 항공, 호텔 " />
 	<meta name="description" content="현대아산투어센터 공식 홈페이지에 오신것을 환영합니다. 금강산, 백두산, 평양, 개성, 원산 등 북측관광과 크루즈, 테마패키지 및 해외여행, 항공" />
@@ -32,15 +32,6 @@
 		<main class="base-main" id="baseMain" role="main">
 			<div class="base-content" id="baseContent">
 				<!-- content ---------------------------------------------------------------------------------------------- -->
-
-				<!-- bread crumb -->
-				<div class="ui-floating breadcrumb-wrap" id="uiBreadcrumb">
-					<div class="ui-floating-wrap">
-						<div class="">
-
-						</div>
-					</div>
-				</div>
 
 				<!-- visual title -->
 				<div class="visual-wrap type-privacy">
@@ -83,14 +74,14 @@
 				$plugins.uiAjax({
 					id: 'uiPrivacy',
 					page:true,
-					url:'/asantour/m/etc/privacy/' + $('#uiPrivacySel').val() + '.html'
+					url:'../etc/privacy/' + $('#uiPrivacySel').val() + '.html'
 				});
 				$('#uiPrivacySel').on('change', function(){
 					console.log(this.value);
 					$plugins.uiAjax({
 						id: 'uiPrivacy',
 						page:true,
-						url:'/asantour/m/etc/privacy/' + this.value + '.html'
+						url:'../etc/privacy/' + this.value + '.html'
 					});
 				})
 
